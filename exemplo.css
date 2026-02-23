@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.titulo{
+    color: red;
+    text-align: center;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.container div {
+   margin: 10px;
+   padding: 10px;
+   background-color: red;
+   text-align: center;
+   transition: transform 0.4s ease;
+   box-shadow: 0px 10px 10px rgb(65, 64, 64);
+
+}
+  
+.container img{
+    height: 300px;
+    width: 250px;
+    transition: transform 0.4s ease;
+   
+    
+}
+.texto{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    
+}
+div:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+    box-shadow: 0px 15px 15px rgb(65, 64, 64);
+}
+
+
+
+
+
+
